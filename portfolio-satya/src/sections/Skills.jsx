@@ -60,7 +60,9 @@ const Skills = () => {
 }
 
 
-export const SkillDiv = ({ name, icon }) => {
+export const SkillDiv = (skillData) => {
+     const {name, icon} = skillData
+
     return (
         <div>
             <div className='skill-container'>
